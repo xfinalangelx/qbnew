@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.zero{
+  background-color: turquoise;
+  width: 100vw;
+  color: white;
+}
+
+.first-amend{
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+  width: 100vw;
+  color: white;
+}
+
+.container-section-abt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 9rem;
+  padding-left: 1rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bold-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.con-1{
+  vertical-align: middle;
+}
+
+.img-header{
+  max-width: 100%;
+}
+
+.pt-6{
+  padding-top: 4rem;
+}
+
+.text-col{
+  padding-top: 4rem;
+  padding-left: 2rem;
+  vertical-align: middle;
+}
+
+.btn-1{
+  font-size: 1.3rem;
+  border: none;
+  font-weight: 500;
+  border-radius: 40px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: turquoise;
+}
+
+.btn-1:hover{
+    background:rgb(51, 168, 157);
+}
+
+.btn-1:focus{
+    background:rgb(35, 119, 111);
+}
+
+.sol-odd{
+  height: 100vh;
+  padding: 1rem;
+  width: 100vw;
+}
+
+.sol-even{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(238, 245, 255);
+}
+
+.img-section-odd{
+  padding-top: 16rem;
+  vertical-align: middle;
+  max-height: 70%;
+}
+
+.img-section-odd-2{
+  padding-top: 16rem;
+  vertical-align: middle;
+  max-height: 90%;
+}
+
+.img-section-even{
+  padding-top: 10rem;
+  vertical-align: middle;
+  max-height: 90%;
+}
+
+.img-section-even-2{
+  padding-top: 10rem;
+  vertical-align: middle;
+  max-height: 100%;
+}
+
+.text-section{
+  font-size: 1.5rem;
+}
+
+.section-head{
+  font-weight: 800;
+}
+
+.rest{
+  width: 100vw;
+}
+
+.custom-icon {
+  font-size:60px;
+  background:#fff;
+  background:rgb(255, 255, 255);
+  padding:50px;
+  -webkit-border-radius:1100%;
+  -moz-border-radius:100%;
+  -o-border-radius:100%;
+  border-radius:100%;
+  border:6px solid rgb(255, 255, 255);
+  color:rgb(255, 255, 255);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  text-align:center;
+  display:table-cell;
+  vertical-align:middle;
+  width:70px;
+  height:70px;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  -o-transition:.5s;
+  transition:.5s;
+}
+
+
+.icon-wrapper {
+  display:inline-block;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
