@@ -1,0 +1,17 @@
+.main-nav > li > a .link-ext {
+    background: black;
+}
+
+.main-nav > li > a {
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    color: #000;
+}
+
+.main-nav > li.is-active > a, .main-nav > li.current-menu-item > a, .main-nav > li:hover > a, .main-nav > li > a:hover {
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
