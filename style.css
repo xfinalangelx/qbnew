@@ -277,6 +277,9 @@ figure {
   color:white;
 }
 
+,description{
+  font-size: 18px;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
