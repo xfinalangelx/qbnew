@@ -277,10 +277,39 @@ figure {
   color:white;
 }
 
-,description{
+.description{
   font-size: 18px;
 }
 
+.label-container{
+	position:fixed;
+	bottom:15px;
+	right:75px;
+	display:table;
+	visibility:visible;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+
+a.float:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
